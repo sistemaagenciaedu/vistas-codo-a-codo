@@ -37,8 +37,8 @@
     background-color: black;
 }
 .container-iz{
-    background-color: white;
-    border-right: 8px solid #fdd306;
+    background-color: black;
+ color: white;
 }
 .container-iz p{
 width: 60%;
