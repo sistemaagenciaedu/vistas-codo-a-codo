@@ -10,7 +10,14 @@
     width: 100%;
     height: 100px;
     background-color: #fdd306;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    overflow: hidden;
 }
+.logo-nav{height: 80%;}
 .container-index{
     width: 100%;
     display: flex;
@@ -160,7 +167,7 @@ font-weight: 400;
     
 }
 .modalidadDiv p:first-child{
-    
+    justify-content: center;
     color: black !important;
     font-size: 40px !important;
     margin-bottom: 1em !important;
@@ -170,6 +177,21 @@ font-weight: 400;
 .modalidadDiv p{
   width: 80%;
 }
+.modalidadDiv div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   
+   
+}
+.modalidadDiv div ul{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+}
+.btn-mrg-inf{margin-bottom: 3em;}
 @media(max-width: 990px){
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -178,6 +200,10 @@ font-weight: 400;
     padding: 0;
     font-family: 'Montserrat', sans-serif !important;
     text-decoration: none;
+}
+.logo-nav{
+    height: auto;
+    max-width: 260px;
 }
 .container-index{
     width: 100%;
@@ -301,7 +327,7 @@ font-weight: 400;
     overflow: hidden;
     margin-top: 1em;
     margin-bottom: 1em;
-    width: 90%;
+    width: 85%;
     min-height: 80%;
     background-color: #fdd306;
     border-radius: 0.4em;
@@ -313,6 +339,7 @@ font-weight: 400;
     text-align: left;
     padding-top: 1em;
     padding-bottom: 2em;
+    overflow: hidden;
 
 }
 .modalidadDiv p{
@@ -322,7 +349,7 @@ font-weight: 400;
     
 }
 .modalidadDiv p:first-child{
-    
+    justify-content: center;
     color: black !important;
     font-size: 40px !important;
     margin-bottom: 1em !important;
@@ -331,6 +358,28 @@ font-weight: 400;
 }
 .modalidadDiv p{
   width: 80%;
+}
+.modalidadDiv div{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    overflow: hidden;
+   
+   
+}
+.modalidadDiv div ul{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+}
+.modalidadDiv div li{
+
+    display: flex;
+    flex-wrap: wrap;
+   text-align: center;
+   
 }
 }
 

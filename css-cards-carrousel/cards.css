@@ -18,6 +18,7 @@ body::before{
 
 .container{
   border-bottom: 8px solid #fdd306;
+  border-top: 8px solid #fdd306;
   width: 100%;
   overflow: hidden;
   padding: 80px 0;
