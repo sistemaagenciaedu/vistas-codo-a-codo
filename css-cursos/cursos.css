@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Montserrat', sans-serif ;
     text-decoration: none;
 }
 .container-cursos{
@@ -41,8 +41,11 @@
     background-color: #333;
     max-width: 300px;
     min-height: 550px;
-    border-radius: 0.4em;
+    border-radius: 0.8em;
     overflow: hidden;
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
 .curos-card-tit{
 color: black;
@@ -55,6 +58,97 @@ font-weight: bold;
 background: rgb(253,211,6);
 background: linear-gradient(90deg, rgba(253,211,6,1) 0%, rgba(252,150,71,1) 100%);
 }
+.card-icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.card-icon div{
+    margin-top: 2em;
+    width: 90%;
+   font-size: small;
+   display: flex;
+   justify-content: space-between;
+}
+.card-icon div p{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.card-logo{
+    margin-top: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-logo img{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    font-size: 20px !important;
+    color: rgb(202, 202, 202);
+}
+.modo-v{
+    background-color: rgb(29, 29, 29);
+    width: fit-content;
+    padding-left:1em ;
+    padding-right:1em ;
+    padding-top:0.4em ;
+    padding-bottom:0.4em ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-weight: bold;
+}
+.modo-v span{
+    display: inline-block;
+   min-width: 12px;
+   min-height: 12px;
+   background-color: red;
+   border-radius: 50%;
+   margin-right: 0.4em;
+   
+
+}
+.card-descrip{
+   margin-top: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-size: 14px;
+    align-items: center;
+}
+.card-descrip-p{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.btn{
+    padding-left: 1.5em;
+padding-right: 1.5em;
+padding-top: 0.5em;
+padding-bottom: 0.5em;
+background-color: #fcda59;
+border-radius: 0.3em;
+width: fit-content;
+
+}
+.btn:hover{
+transform: scale(1.2);
+transition: all 0.4s;
+background-color: #fdd306;
+
+}
+.card-preinscribite{margin: auto;}
 @media(max-width: 990px){
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
